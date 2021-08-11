@@ -1,0 +1,21 @@
+def function (a, b, c) {
+   printer b
+   a := 1
+   {
+       a := 6
+       printer a
+   }
+   return a
+}
+main {
+    a := 12
+    printer a
+    reader b
+    printer b
+    mat: c := a + b - 3 * ( 37 % a )
+    d := 1
+    reader e
+    log: gg := 1 xor 1
+?  gj := function (a, b, c)
+?   printer gj
+}
